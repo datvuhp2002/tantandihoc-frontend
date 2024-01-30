@@ -1,0 +1,28 @@
+.wrapper {
+  overflow: hidden;
+}
+.w100 {
+  width: 100%;
+}
+.w50 {
+  width: 50%;
+}
+.minw30 {
+  min-width: 30%;
+}
+.h100 {
+  height: 100%;
+}
+.h50 {
+  height: 50%;
+}
+.minh30 {
+  min-height: 30%;
+}
+.logo {
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+  height: 63px;
+  width: 63px;
+}
