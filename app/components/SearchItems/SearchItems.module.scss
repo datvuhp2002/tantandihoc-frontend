@@ -1,0 +1,28 @@
+.wrapper {
+  --size-thumbnail: 0.2rem;
+  --desc-color: #0000008a;
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  &:hover {
+    background-color: var(--desc-color);
+  }
+  .thumbnail {
+    background: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 3.5rem;
+    height: 3.2rem;
+  }
+  span {
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #292929;
+    display: -webkit-box;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-left: 1.2rem;
+    overflow: hidden;
+  }
+}
